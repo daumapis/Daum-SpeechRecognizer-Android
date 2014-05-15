@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divider">#dfdfdf</color>
+    <color name="footer_background">#c0c0c0</color>
+    <color name="dark_sky_blue">#4048ef</color>
+    <color name="bg_selected_word">#e5e5e5</color>
+</resources>

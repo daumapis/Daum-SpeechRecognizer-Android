@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/white"
+        >
+    <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:divider="@color/divider"
+            android:dividerHeight="1px" />
+
+    <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/footer_background" />
+
+    <Button
+            android:id="@+id/next_button"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="@string/next_button"
+            android:background="@android:color/transparent"
+            android:textColor="@color/dark_sky_blue" />
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+        <View
+                android:id="@+id/record_button_panel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/footer_background" />
+        <ImageButton
+                android:id="@+id/record_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/net_daum_mf_asr_bt_voice_record_selector"
+                android:contentDescription="@string/start_button_description"/>
+    </RelativeLayout>
+</LinearLayout>
+
